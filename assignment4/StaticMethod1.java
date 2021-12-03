@@ -23,6 +23,6 @@ static void method2(){
 }
 
     public static void main(String[] args) {
-        new StaticMethod1().method2();
+         StaticMethod1.method2();
     }
 }
