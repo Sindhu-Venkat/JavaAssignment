@@ -1,7 +1,11 @@
 package com.assignment5;
 
 public class LogicalOperators {
+
     public static void main(String[] args) {
+
+        System.out.println("**********WELCOME*********");
+        System.out.println("LOGICAL OPERATORS");
 
         int a = 5, b = 5;
         System.out.println("AND Operator");
@@ -25,5 +29,6 @@ public class LogicalOperators {
             System.out.println("! not satisfied");
 
         }
+
     }
 }

@@ -23,7 +23,7 @@ public class Calculator {
     }
 
     double add(double num1, double num2) {
-        return(double)(num1+num2);
+        return(num1+num2);
     }
     int sub(int num1, int num2) {
         return num1 - num2;
@@ -46,7 +46,7 @@ public class Calculator {
     }
 
     double sub(double num1, double num2) {
-        return(double)(num1-num2);
+        return(num1-num2);
     }
     int multiply(int num1, int num2) {
         return (num1 * num2);
@@ -69,7 +69,7 @@ public class Calculator {
     }
 
     double multiply(double num1, double num2) {
-        return(double)(num1*num2);
+        return(num1*num2);
     }
     int div(int num1, int num2) {
         return (num1 / num2);
@@ -92,7 +92,7 @@ public class Calculator {
     }
 
     double div(double num1, double num2) {
-        return(double)(num1/ num2);
+        return(num1/ num2);
     }
 
 
