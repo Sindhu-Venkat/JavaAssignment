@@ -15,8 +15,7 @@ class Child extends Parent {
     }
 }
 class main{
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Parent obj = new Child();
         obj.show();
     }

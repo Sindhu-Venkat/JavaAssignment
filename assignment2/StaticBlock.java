@@ -15,7 +15,7 @@ public class StaticBlock {
         name = "luke";
         StaticBlock sb = new StaticBlock();
         sb.instance();
-        StaticBlock.stat();
+        stat();
 
     }
     void instance(){
@@ -23,7 +23,7 @@ public class StaticBlock {
         System.out.println("Employee Id = "+ id);
     }
 
-    static void stat(){
+   public static void stat(){
         System.out.println("Static Method");
         System.out.println("Student Name = "+ name);
     }

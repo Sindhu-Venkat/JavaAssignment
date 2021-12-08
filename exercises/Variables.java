@@ -1,5 +1,7 @@
 package com.exercises;
 
+import com.assignment2.StaticBlock;
+
 public class Variables {
 
     int i = 10;             //instance variable
@@ -14,8 +16,11 @@ public class Variables {
         Variables vEx = new Variables();                // object creation
         System.out.println("Instance Variable=" +vEx.i);
         System.out.println("Static Variable=" + vEx.j);   //using objectname
-        System.out.println("Static Variable="+j);     // direct access
+        System.out.println("Static Variable="+ j);     // direct access
         System.out.println("Static Variable="+Variables.j); //using classname
+
+
+
 
     }
 }
