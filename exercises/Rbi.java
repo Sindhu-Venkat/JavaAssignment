@@ -19,7 +19,7 @@ class Rbi {
     }
         class Icici extends Rbi {
             int interest(int InterestRate) {
-                return RPercentageInterest + InterestRate;
+                return super.RPercentageInterest + InterestRate;
             }
     public static void main(String args[]) {
         Rbi R = new Rbi();
