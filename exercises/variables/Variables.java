@@ -1,4 +1,4 @@
-package com.exercises.oopsconcept;
+package com.exercises.variables;
 
 public class Variables {
 
