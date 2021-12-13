@@ -1,6 +1,4 @@
-package com.exercises;
-
-import com.assignment2.StaticBlock;
+package com.exercises.oopsconcept;
 
 public class Variables {
 

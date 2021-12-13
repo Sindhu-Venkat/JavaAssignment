@@ -1,4 +1,4 @@
-package com.exercises;
+package com.exercises.accessmodifiers;
 
 class Animal {
     int Animalcount = 2;
@@ -6,7 +6,7 @@ class Animal {
     public void animaltypes() {
         System.out.println("AnimalTypes:" + Animalcount);
     }
-    class Dog {
+    class Dog  {
         private int doglegs = 4;
         private void Dog() {
             System.out.println("Dog Legs:" + doglegs);

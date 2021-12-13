@@ -1,4 +1,4 @@
-package com.exercises;
+package com.exercises.oopsconcept;
 
 public class Calculator {
 

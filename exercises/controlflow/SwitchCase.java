@@ -1,4 +1,4 @@
-package com.exercises;
+package com.exercises.controlflow;
 
 public class SwitchCase {
     public static void main(String[] args) {

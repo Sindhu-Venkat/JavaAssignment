@@ -1,4 +1,4 @@
-package com.assignment5;
+package com.exercises.operators;
 
 public class LogicalOperators {
 

@@ -1,6 +1,6 @@
-package com.exercises;
+package com.exercises.oopsconcept;
 
-class Rbi {
+class Rbi {               // method overriding
     int RPercentageInterest = 2;
     int interest(int InterestRate) {
         int RbiInterest = RPercentageInterest+InterestRate;
