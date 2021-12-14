@@ -9,7 +9,7 @@ private void numberofcount() {
         }
 
         //default accessed only within same package
-        void numberofanimals() {
+       void numberofanimals() {
         Zoo z1= new Zoo();
         z1.numberofcount();
         }
