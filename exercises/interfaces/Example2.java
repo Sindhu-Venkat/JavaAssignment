@@ -41,21 +41,3 @@ abstract class SmartPhone implements Feature, Addons{
        m.mms();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-public class Example2 {
-}
