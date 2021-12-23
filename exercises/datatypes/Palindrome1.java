@@ -1,5 +1,8 @@
 package com.exercises.datatypes;
 
+//Write a Java program to check if a given positive number is a palindrome or not
+//Write a Java program to check if a given string is a palindrome or not
+
 class GrandParent {
         void show(){
             int num = 555;     //positive integer

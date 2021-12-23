@@ -1,5 +1,7 @@
 package com.exercises.datatypes;
 
+//Write a Java program to check if a given positive number is a palindrome or not
+
 public class IntPalindrome2 {
 
     public static void main(String[] args) {

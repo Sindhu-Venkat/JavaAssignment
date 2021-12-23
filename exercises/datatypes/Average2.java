@@ -1,5 +1,7 @@
 package com.exercises.datatypes;
 
+//7. Write a program to find the average of the given n number of double values
+
 import java.util.Scanner;
 
 class Avg2{

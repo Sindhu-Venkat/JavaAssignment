@@ -1,4 +1,6 @@
 package com.exercises.datatypes;
+//. Write a program to find the average of the given 3 double values?
+//	a=10.5, b=15.4, c=24.1
 
 class Avg1{
     double a ;
