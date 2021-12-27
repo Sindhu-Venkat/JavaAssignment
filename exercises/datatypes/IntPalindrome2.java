@@ -7,9 +7,8 @@ public class IntPalindrome2 {
     public static void main(String[] args) {
         System.out.println("<===INTEGER PALINDROME===>");
 
-        int num = 121;     //positive integer
+        int num = 456;     //positive integer
         int rev= 0,rem;    // rev - reverse , //rem - remainder
-
         int temp = num;   //introducing a temp variable and assigning it to num.
         while(temp>0) {
             rem = temp % 10;

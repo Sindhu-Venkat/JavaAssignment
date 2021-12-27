@@ -26,7 +26,5 @@ public class Average2 {
             a[i]= sc.nextInt();
         Avg2 av = new Avg2(a,n);
         System.out.println("TOTAL AVERAGE ="+av.result);
-
-
     }
 }
