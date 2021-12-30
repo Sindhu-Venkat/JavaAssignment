@@ -2,19 +2,22 @@ package com.exercises.datatypes;
 
 //Write a Java program to check if a given positive number is a palindrome or not
 
-import java.util.Scanner;
-
 class Palindromelogic {
 
-    public int display(int r) {               //IntPalindrome2
-        return r;
+    public int display(int palindromeResult) {               //IntPalindrome2
+        return palindromeResult;
 
     }
 
-    public String display(String strrev){
-        return strrev;
+    public String show(String finalResult){
+        final String result = finalResult;
+        return result;
     }
-}
+    public static int checkPalindrome(int num){
+        return num;
+    }
+    }
+
 
 
 
