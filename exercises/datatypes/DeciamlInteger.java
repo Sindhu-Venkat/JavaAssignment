@@ -9,8 +9,8 @@ public class DeciamlInteger {
     public static void main(String[] args) {
         System.out.println("DECIMAL TO INTEGER");
         ConversionLogic cl = new ConversionLogic();
-        int integervalue = (int) cl.DeciInt(19.9);
-        System.out.println("INTEGER VALUE :"+ integervalue);
+        int integerValue = cl.DeciInt(19.9);
+        System.out.println("INTEGER VALUE :"+ integerValue);
     }
 }
 

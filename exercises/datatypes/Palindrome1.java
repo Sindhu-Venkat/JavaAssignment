@@ -6,55 +6,59 @@ package com.exercises.datatypes;
 import java.util.Scanner;
 
 class GrandParent {
-        void show(){
-            int num ,rev = 0,rem;     //positive integer
+    void show(){
+            int num,r = 0,rev = 0,rem;     //positive integer
             Scanner sc = new Scanner(System.in);
             System.out.println("ENTER THE NUMBER TO BE REVERSED :");
             num = sc.nextInt();
-            for(rev=0;num>0;num/=10){
-                rem = num % 10;
-                rev = rem;
-                num = num /10;
+            while( num != 0 )
+            {
+                rem= num % 10;
+                r= r * 10 + rem;
+                num=num/10;
             }
-            System.out.println(rev);
-            if (num == rev) {             //using if else condition checking whether the num is palindrome or not.
-                System.out.println("IS A PALINDROME");
+            Palindromelogic pl = new Palindromelogic();
+            int temp = num;
+            int intResult = pl.display(r);
+            System.out.println("PALINDROME RESULT :"+intResult);
+            if (temp == r) {             //using if else condition checking whether the num is palindrome or not.
+                System.out.println(" Entered Integer is a Palindrome");
             } else {
-                System.out.println("NOT A PALINDROME");
+                System.out.println(" Entered Integer is not a Palindrome");
             }
         }
     }
-    class Parent extends GrandParent{
-        void display(){
-            String str1,rev =" ";
+    class Parent extends GrandParent {
+        void display() {
+            String str, strrev = "";
             Scanner sc = new Scanner(System.in);
-            System.out.println("ENTER THE STRING TO BE REVERSED :");
-            str1= sc.nextLine();
-            int length = str1.length();
-            for(int i = str1.length()-1; i>=0; i--){
-                rev = rev + str1.charAt(i);
-                }
-            System.out.println(rev);
-            if(str1 == rev){
-                System.out.println("STRING IS PALINDROME");
+            System.out.print("Enter a string :");
+            str = sc.next();
+            for (int i = str.length() - 1; i >= 0; i--) {
+                strrev = strrev + str.charAt(i);
             }
-            else{
-                System.out.println("STRING IS NOT PALINDROME");
+            Palindromelogic pl = new Palindromelogic();
+            System.out.println("Reverse of a string is : " + strrev);
+            String strResult = pl.display(strrev);
+            System.out.println("PALINDROME RESULT :" + strResult);
+            if (strrev == str) {
+                System.out.println("Entered string is palindrome");
+            } else {
+                System.out.println("Entered string is not a palindrome");
             }
-            }
-        }
-public class Palindrome1 extends GrandParent {
-        public static void main(String[] args) {
-            System.out.println("<---HELLO--->");
-            Parent p = new Parent();
-            System.out.println("****INTEGER PALINDROME****");
-            p.show();
-            System.out.println("****STRING PALINDROME****");
-            p.display();
-
-
         }
     }
+        public class Palindrome1 extends GrandParent {
+            public static void main(String[] args) {
+                System.out.println("<---HELLO--->");
+                Parent p = new Parent();
+                System.out.println("****INTEGER PALINDROME****");
+                p.show();
+                System.out.println("****STRING PALINDROME****");
+                p.display();
+            }
+        }
+
 
 
 

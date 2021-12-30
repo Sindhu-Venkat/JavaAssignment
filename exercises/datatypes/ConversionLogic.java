@@ -2,11 +2,11 @@ package com.exercises.datatypes;
 
 public class ConversionLogic {
 
-    public double DeciInt(double a){
-        return (int)a;
+    public int DeciInt(double integerValue){
+        return (int) integerValue;
     }
 
-    public double Intdeci(int a){
-        return (int) a;
+    public int Intdeci(double decimalValue){
+        return  (int) decimalValue;
     }
 }
