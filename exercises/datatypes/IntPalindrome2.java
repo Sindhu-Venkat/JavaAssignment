@@ -1,6 +1,6 @@
 package com.exercises.datatypes;
 
-//Write a Java program to check if a given positive number is a palindrome or not
+//6.Write a Java program to check if a given positive number is a palindrome or not
 
 import java.util.Scanner;
 

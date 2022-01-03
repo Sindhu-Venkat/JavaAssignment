@@ -9,7 +9,7 @@ public class IntegerDecimal {
     public static void main(String[] args) {
         System.out.println("INTEGER TO DECIMAL ");
         ConversionLogic cl = new ConversionLogic();
-        double decimalValue = cl.Intdeci(19);
+        double decimalValue = cl.intdeci(19);
         System.out.println("DECIMAL VALUE :"+ decimalValue);
     }
 }

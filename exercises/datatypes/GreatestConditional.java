@@ -7,20 +7,23 @@ import java.util.Scanner;
 public class GreatestConditional {
     public static void main(String[] args) {
         System.out.println("** GREATEST OF THREE INTEGERS **:");
-        int num1,num2,num3;
+        int a,b,c;
         Scanner sc = new Scanner(System.in);
         System.out.println(" ENTER THREE INTEGERS :");
-        num1 = sc.nextInt();
-        num2 = sc.nextInt();
-        num3 = sc.nextInt();
-        if(num1>num2 && num1>num3){
+        a = sc.nextInt();
+        b = sc.nextInt();
+        c = sc.nextInt();
+        if(a>b && a>c){
+            System.out.println(a + "is the greatest number");
         }
-        else if(num2>num1 && num2>num3){
+        else if(b>a && b>c){
+            System.out.println(b+ "is the greatest number");
         }
-        else if(num3>num1 && num3>num2){
+        else if (c>a && c>b){
+            System.out.println(c + "is the greatest number");
         }
-        CCLogic c = new CCLogic();
-        int GreatestNumber = c.display(num1,num2,num3);
+        CCLogic cc = new CCLogic();
+        int GreatestNumber = cc.display(a,b,c);
         System.out.println("The Greatest of three numbers is :"+GreatestNumber);
     }
 }

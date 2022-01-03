@@ -1,7 +1,7 @@
 package com.exercises.datatypes;
 
-//Write a Java program to check if a given positive number is a palindrome or not
-//Write a Java program to check if a given string is a palindrome or not
+//4.Write a Java program to check if a given positive number is a palindrome or not
+//5.Write a Java program to check if a given string is a palindrome or not
 
 import java.util.Scanner;
 
@@ -15,15 +15,14 @@ public class Palindrome1 {
         int length = num.length();
         for (int i = length - 1; i >= 0; i--)
             reverse = reverse + num.charAt(i);
-        System.out.println("Reverse :"+ reverse);
-        if (num == (reverse))
+        System.out.println("REVERSE:" + reverse);
+        if (num.equals(reverse))
             System.out.println("The entered input " + num + " is a palindrome.");
         else
             System.out.println("The entered input " + num + "  isn't a palindrome.");
         Palindromelogic pl = new Palindromelogic();
         String result = pl.show(num);
         System.out.println("Final result :"+result);
-
     }
 }
 

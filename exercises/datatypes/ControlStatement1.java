@@ -16,7 +16,7 @@ public class ControlStatement1 {
                 count++;
         }
         CCLogic cc = new CCLogic();
-        int totalCount = cc.display(count);
+        int totalCount = cc.display(count++);
         System.out.println("THE TOTAL NUMBER OF CHARACTERS IN THE GIVEN STRING INPUT IS :"+totalCount);
     }
 }

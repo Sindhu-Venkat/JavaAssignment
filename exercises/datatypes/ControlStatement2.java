@@ -10,8 +10,8 @@ public class ControlStatement2 {
         int odd =0;
         for (int i  = 0; i < a.length; i++) {
             if (a[i] % 2 != 0) {
-                odd++;
                 System.out.println(a[i]);
+                odd++;
             }
             }
         CCLogic cc = new CCLogic();

@@ -2,7 +2,7 @@ package com.exercises.datatypes;
 
 public class CCLogic {
 
-    public int display(int num1, int num2, int GreatestNumber){      //GreatestConditional
+    public int display(int a, int b, int GreatestNumber){      //GreatestConditional
         return GreatestNumber;
     }
 
@@ -10,25 +10,24 @@ public class CCLogic {
         return finalValue;
     }
 
-    public int display(int totalCount){           //ControlStatements1
-        return totalCount;
+    public int display(int count){           //ControlStatements1
+        return count;
     }
 
-    public int show2(int oddNumbers){        //ControlStatement2
-        return oddNumbers;
+    public int show2(int odd){        //ControlStatement2
+        return odd;
     }
 
-    public int display2(int evenNumbers){       //ControlStatement3
-        return evenNumbers;
+    public int display2(int even){       //ControlStatement3
+        return even;
     }
 
-    public int display3(int primeNumbers){            //ControlStatement4
-        return primeNumbers;
+    public int display3(int i){        //ControlStatement4
+        return i;
     }
 
-
-    public int show3(int positiveSum){               //ControlStatement5
-        return positiveSum;
+    public int show3(int sum){               //ControlStatemen
+        return sum;
     }
 }
 

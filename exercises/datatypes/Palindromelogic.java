@@ -9,14 +9,13 @@ class Palindromelogic {
 
     }
 
-    public String show(String finalResult){
+    public String show(String finalResult){             //Palindrome1
         final String result = finalResult;
         return result;
     }
-    public static int checkPalindrome(int num){
-        return num;
+
     }
-    }
+
 
 
 
