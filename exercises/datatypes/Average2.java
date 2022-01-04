@@ -18,7 +18,7 @@ public class Average2 {
             double number = sc.nextDouble();
             result = number + result;
         }
-            double sumAverage = al.display(result/n, n);
+            double sumAverage = al.display(result/n);
             System.out.println("The total average is :" + sumAverage);
         }
     }

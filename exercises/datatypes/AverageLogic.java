@@ -5,8 +5,10 @@ class AverageLogic {
         return (a + b + c)/3;
     }
 
-    public double display(double result, double n) {             //Average2 method
-        return result/n;
+    public double display(double result) {             //Average2 method
+        int number=0;
+        result = number + result;
+        return result;
     }
 
 }
