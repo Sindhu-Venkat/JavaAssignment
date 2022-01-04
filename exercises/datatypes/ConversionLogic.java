@@ -7,7 +7,7 @@ public class ConversionLogic {
     }
 
     public double intdeci(int value){         //IntegerDecimal
-        return (double) value;
+        return value;
     }
 }
 

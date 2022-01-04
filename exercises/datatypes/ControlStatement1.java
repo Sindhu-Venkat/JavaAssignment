@@ -10,13 +10,8 @@ public class ControlStatement1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String :");
         String input = sc.nextLine();
-        int count = 1;
-        for(int i = 1; i < input.length(); i++){
-            if ((input.charAt(i) != ' '))
-                count++;
-        }
         CCLogic cc = new CCLogic();
-        int totalCount = cc.display(count++);
+        int totalCount = cc.display2(input);
         System.out.println("THE TOTAL NUMBER OF CHARACTERS IN THE GIVEN STRING INPUT IS :"+totalCount);
     }
 }
