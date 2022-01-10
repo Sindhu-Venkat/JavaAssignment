@@ -7,9 +7,7 @@ public class ControlStatement4 {
     public static void main(String[] args) {
         System.out.println("** PRIME NUMBERS FROM THE GIVEN NUMBERS **");
         CCLogic cc = new CCLogic();
-        int num=0;
-        int primeNumbers = cc.display3(num);
-        System.out.println("Total prime numbers :"+ primeNumbers);
+        cc.prime();
     }
     }
 

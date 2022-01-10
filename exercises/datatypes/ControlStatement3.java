@@ -6,9 +6,10 @@ package com.exercises.datatypes;
 public class ControlStatement3 {
     public static void main(String[] args) {
         System.out.println("**EVEN NUMBERS FROM THE GIVEN ARRAY**");
-        int even =0;
         CCLogic cc = new CCLogic();
-        int evenNumbers = cc.display2(even);
-        System.out.println("Total even numbers :"+evenNumbers);
+        cc.even();
+
+
+
     }
 }

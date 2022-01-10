@@ -6,10 +6,8 @@ package com.exercises.datatypes;
 public class ControlStatement2 {
     public static void main(String[] args) {
         System.out.println("**ODD NUMBERS FROM THE GIVEN ARRAY**");
-        int odd =0;
         CCLogic cc = new CCLogic();
-        int oddNumbers = cc.show2(odd);
-        System.out.println("Total Odd numbers :" + oddNumbers);
+        cc.odd();
     }
 }
 

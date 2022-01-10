@@ -1,30 +1,36 @@
 package com.exercises.datatypes;
 
+import java.util.Scanner;
 
 public class CCLogic {
 
-    public int display(int temp){      //GreatestConditional;
-        int c=0,b=0,a = 0;
-        int result= c >(a>b?a:b)?c:((a>b)?a:b);
-        return temp;
+    public int greatest(int tempValue) {                          //GreatestConditional
+        Scanner sc = new Scanner(System.in);
+        int a, b, c;
+        System.out.println("Enter first number:");
+        a = sc.nextInt();
+        System.out.println("Enter second number:");
+        b = sc.nextInt();
+        System.out.println("Enter third number:");
+        c = sc.nextInt();
+        int tempResult = c > (a > b ? a : b) ? c : ((a > b) ? a : b);
+        return tempResult;
     }
 
-    public int show(int n){                      //IntegerConditional
-        if(n>0){
+    public int show(int n) {                             //IntegerConditional
+        if (n > 0) {
             System.out.println("INTEGER IS POSITIVE");
-        }
-        else if(n<0){
+        } else if (n < 0) {
             System.out.println("INTEGER IS NEGATIVE");
-        }
-        else{
+        } else {
             System.out.println("INTEGER IS ZERO");
         }
         return n;
     }
 
-    public int display2(String input){                      //ControlStatements1
+    public int character(String input) {                      //ControlStatements1 //charCount
         int count = 1;
-        for(int i = 1; i < input.length(); i++){
+        for (int i = 1; i < input.length(); i++) {
             if (input.charAt(i) != ' ') {
                 count++;
             }
@@ -32,46 +38,60 @@ public class CCLogic {
         return count;
     }
 
-    public int show2(int odd){                                //ControlStatement2
-        int[] a = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
-        for (int i = 0 ; i< a.length; i++) {
-            if (a[i] % 2 != 0) {
-                odd++;
+    public int character2(String input) {           //wordCount
+        int wordCount = 1;
+        for (int i = 1; i < input.length(); i++) {
+            if (input.charAt(i) == ' ') {
+                wordCount++;
             }
         }
-        return odd;
+        return wordCount;
     }
 
-    public int display2(int even){                       //ControlStatement3
-        int[] a ={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
-        for(int i = 1; i< a.length; i++){
-            if(a[i] %2 == 0){
-                even++;
-            }
-        }
-        return even;
-    }
-
-    public int display3(int num){        //ControlStatement4
-        int []a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 2; j < (a[i] / 2); j++) {
-                if (a[i] % j == 0) {
-                    num++;
-                    break;
+        public void odd() {                                //ControlStatement2
+            int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+            for (int i = 0; i < a.length; i++) {
+                if (a[i] % 2 != 0) {
+                    System.out.print(a[i]+" ");
                 }
             }
         }
-        return num;
-    }
 
-    public int show3(int sum){               //ControlStatement5
-        int []a = {-1, 2, -3, 4, -5, 6, -7, 8, -9, 10, -11, 12, -13, 14, -15, 16, -17, 18, -19, 20};
-        for (int i = 1; i < a.length; i++) {
-            if(a[i] %2 == 0)
-                sum = sum + a[i];
+        public void even () {                       //ControlStatement3
+            int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+            for (int i = 1; i < a.length; i++) {
+                if (a[i] % 2 == 0) {
+                    System.out.print(a[i]+" ");
+                }
+            }
         }
-        return sum;
+
+        public void prime() {        //ControlStatement4
+            int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+            int num;
+            for (int i = 1; i < a.length; i++) {
+                num=0;
+                for (int j = 2; j < (a[i] / 2); j++) {
+                    if (a[i] % j == 0) {
+                        num++;
+                        break;
+                    }
+                        if (num == 0) {
+                            System.out.println(a[i]);
+                            break;
+                        }
+                    }
+                }
+            }
+
+
+        public int positive( int sum){               //ControlStatement5
+            int[] a = {-1, 2, -3, 4, -5, 6, -7, 8, -9, 10, -11, 12, -13, 14, -15, 16, -17, 18, -19, 20};
+            for (int i = 1; i < a.length; i++) {
+                if (a[i] % 2 == 0)
+                    sum = sum + a[i];
+            }
+            return sum;
+        }
     }
-}
 

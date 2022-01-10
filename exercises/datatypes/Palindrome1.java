@@ -13,17 +13,29 @@ public class Palindrome1 {
         String reverse = "";
         String num = sc.nextLine();
         int length = num.length();
-        for (int i = length - 1; i >= 0; i--)
+        for (int i = length - 1; i >= 0; i--) {
             reverse = reverse + num.charAt(i);
+            boolean temp = checkPalindrome(i);
+            if (checkPalindrome(i))
+                System.out.println(i + " ");
+        }
         System.out.println("REVERSE:" + reverse);
         if (num.equals(reverse))
             System.out.println("The entered input " + num + " is a palindrome.");
         else
             System.out.println("The entered input " + num + "  isn't a palindrome.");
         Palindromelogic pl = new Palindromelogic();
-        String result = pl.show(num);
-        System.out.println("Final result :"+result);
+        boolean result = pl.equals(sc.reset());
+        System.out.println("Final result :" + result);
     }
+        private static boolean checkPalindrome(int i){
+        int num=0,reverse=0;
+            if (num == (reverse))
+                return true;
+            else
+                return false;
+        }
+
 }
 
 

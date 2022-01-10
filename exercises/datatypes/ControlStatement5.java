@@ -8,7 +8,7 @@ public class ControlStatement5 {
         System.out.println(" ** SUM OF ALL POSITIVE NUMBERS FROM THE ARRAY ** ");
         int sum = 0;
         CCLogic cc = new CCLogic();
-        int positiveSum = cc.show3(sum);
+        int positiveSum = cc.positive(sum);
         System.out.println("SUM OF ALL POSITIVE NUMBERS IS :"+ positiveSum );
     }
 }
