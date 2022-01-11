@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 class Palindromelogic {
 
-    public int display(int num) {               //IntPalindrome2
+    public int display(int num) {                       //IntPalindrome2
         int rev=0, rem;
         Scanner s = new Scanner(System.in);
         System.out.print("Enter number that has to be checked:");
@@ -20,16 +20,18 @@ class Palindromelogic {
         }
         System.out.println("Reverse:"+rev);
         if (temp == rev) {
+            boolean isPrime = true;
             System.out.println("IS A PALINDROME");
         }
         else {
+            boolean isPrime = false;
             System.out.println("NOT A PALINDROME");
         }
         return rev;
 
     }
 
-    public String show(String num) {        //palindrome3
+    public String show(String num) {                         //palindrome3
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number or string:");
         String reverse = "";

@@ -7,8 +7,8 @@ public class IntPalindrome2 {
     public static void main(String[] args) {
         System.out.println("<===INTEGER PALINDROME===>");
         Palindromelogic pl = new Palindromelogic();
-        int rev=0;
-        int palindromeResult = pl.display(rev);
+        int num=0;
+        int palindromeResult = pl.display(num);
         System.out.println("PALINDROME RESULT :"+palindromeResult);
     }
 }
