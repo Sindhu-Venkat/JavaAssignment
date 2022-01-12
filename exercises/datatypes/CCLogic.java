@@ -28,7 +28,7 @@ public class CCLogic {
         return n;
     }
 
-    public int character(String input) {                      //ControlStatements1 //charCount
+    public int character1(String input) {                      //ControlStatements1 //charCount
         int count = 1;
         for (int i = 1; i < input.length(); i++) {
             if (input.charAt(i) != ' ') {
@@ -50,9 +50,10 @@ public class CCLogic {
 
         public void odd() {                                //ControlStatement2
             int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
+            int totalOdd = 0;
             for (int i = 0; i < a.length; i++) {
                 if (a[i] % 2 != 0) {
-                    System.out.print(a[i]+" ");
+                    System.out.print(a[i] + " ");
                 }
             }
         }
@@ -69,24 +70,27 @@ public class CCLogic {
         public void prime() {        //ControlStatement4
             int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
             int num;
-            for (int i = 1; i < a.length; i++) {
-                num=0;
+            for (int i = 0; i < a.length; i++){
+                 boolean isPrime = true;
+                if(a[i]==1)
+                    isPrime= false;
+                else
                 for (int j = 2; j < (a[i] / 2); j++) {
                     if (a[i] % j == 0) {
-                        num++;
+                        isPrime = false;
                         break;
                     }
-                        if (num == 0) {
-                            System.out.println(a[i]);
-                            break;
+                }
+                if (isPrime) {
+                            System.out.print(a[i]+" ");
                         }
                     }
                 }
-            }
 
 
-        public int positive( int sum){               //ControlStatement5
+        public int positive( int totalSum){               //ControlStatement5
             int[] a = {-1, 2, -3, 4, -5, 6, -7, 8, -9, 10, -11, 12, -13, 14, -15, 16, -17, 18, -19, 20};
+            int sum=0;
             for (int i = 1; i < a.length; i++) {
                 if (a[i] % 2 == 0)
                     sum = sum + a[i];

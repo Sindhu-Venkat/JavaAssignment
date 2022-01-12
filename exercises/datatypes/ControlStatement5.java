@@ -6,9 +6,9 @@ package com.exercises.datatypes;
 public class ControlStatement5 {
     public static void main(String[] args) {
         System.out.println(" ** SUM OF ALL POSITIVE NUMBERS FROM THE ARRAY ** ");
-        int sum = 0;
         CCLogic cc = new CCLogic();
-        int positiveSum = cc.positive(sum);
+        int totalSum = 0;
+        int positiveSum = cc.positive(totalSum);
         System.out.println("SUM OF ALL POSITIVE NUMBERS IS :"+ positiveSum );
     }
 }

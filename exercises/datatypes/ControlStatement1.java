@@ -11,8 +11,8 @@ public class ControlStatement1 {
         System.out.println("Enter the String :");
         String input = sc.nextLine();
         CCLogic cc = new CCLogic();
-        int totalCount1 = cc.character(input);
-        int totalCount2 =cc.character2(input);
+        int totalCount1 = cc.character1(input);
+        int totalCount2 = cc.character2(input);
         System.out.println("THE TOTAL NUMBER OF CHARACTERS IN THE GIVEN STRING INPUT IS :"+totalCount1);
         System.out.println("THE TOTAL WORD COUNT IN THE GIVEN STRING INPUT IS :"+totalCount2);
     }
