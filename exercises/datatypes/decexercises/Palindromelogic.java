@@ -1,4 +1,4 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 //Write a Java program to check if a given positive number is a palindrome or not
 

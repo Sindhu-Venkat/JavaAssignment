@@ -1,6 +1,8 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 //2. Write a java program to that reads an integer and check whether it is negative,zero or positive.
+
+import com.exercises.datatypes.decexercises.CCLogic;
 
 import java.util.Scanner;
 

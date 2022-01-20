@@ -1,9 +1,11 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 /* Write a program to convert a decimal value to integer
 	Expected Result:
 	i/p: 19.9
 	o/p: 19 */
+
+import com.exercises.datatypes.decexercises.ConversionLogic;
 
 public class DeciamlInteger {
     public static void main(String[] args) {

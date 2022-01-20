@@ -1,7 +1,9 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 //4.Write a Java program to check if a given positive number is a palindrome or not
 //5.Write a Java program to check if a given string is a palindrome or not
+
+
 
 import java.util.Scanner;
 

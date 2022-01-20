@@ -1,8 +1,10 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 /*Write a program to find the average of the given 3 double values?
 	a=10.5, b=15.4, c=24.1
  Condition: Average logic must be in a method and result of the average must be stored in variable result and displayed.*/
+
+import com.exercises.datatypes.decexercises.AverageLogic;
 
 public class Average1 {
     public static void main(String[] args) {

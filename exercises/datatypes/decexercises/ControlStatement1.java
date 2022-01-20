@@ -1,6 +1,8 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 // 1.write a program to find the number of characters from the given i/p string.
+
+import com.exercises.datatypes.decexercises.CCLogic;
 
 import java.util.Scanner;
 

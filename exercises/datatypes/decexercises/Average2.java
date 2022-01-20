@@ -1,4 +1,6 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
+
+import com.exercises.datatypes.decexercises.AverageLogic;
 
 import java.util.Scanner;
 

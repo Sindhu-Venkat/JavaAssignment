@@ -1,6 +1,8 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 //6.Write a Java program to check if a given positive number is a palindrome or not
+
+
 
 
 public class IntPalindrome2 {

@@ -1,8 +1,9 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 //1. Write a Java program to take three i/p integers from the user and print the greatest number.
 
 
+import com.exercises.datatypes.decexercises.CCLogic;
 
 public class GreatestConditional {
     public static void main(String[] args) {

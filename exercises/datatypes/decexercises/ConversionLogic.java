@@ -1,4 +1,4 @@
-package com.exercises.datatypes;
+package com.exercises.datatypes.decexercises;
 
 public class ConversionLogic {
 
